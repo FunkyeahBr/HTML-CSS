@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+          
+            background-color: rgb(39, 34, 34);
+            margin: 10px;
+            padding: 10px;
+            
+        }
+
+            nav {
+                background-color: rgb(151, 151, 151);
+                padding: 3px;
+                margin: auto;
+                box-shadow: 1px 1px 1px 1px  black;
+            }
+
+            nav > a {
+                text-decoration: none;
+                color: rgb(83, 86, 255);
+                font-weight: bold;
+                margin-right: 30px;
+                text-decoration: underline;
+                
+
+            }
+            nav > a:hover {
+                text-decoration: underline;
+            }
+
+        main {
+            padding: 10px;
+            margin: 10px;  
+            background-color: white;
+            border-radius: 20px 0px;
+            box-shadow: 3px 4px 7px 5px dimgrey;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+
+        h1 {
+            color: white;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside { 
+            background-color: rgb(151, 151, 151);
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 0, 0);
+           border-radius: 50%;
+           margin-top: 50px;
+          margin-left: 50%;
+          box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.226);
+            
+        }
+      
+    </style>
+</head>
+<body>
+        <header>
+                <h1>
+                    Meu site
+                </h1>
+                <nav><a href="#">Meu site</a> 
+                    <a href="#">Meu site</a>
+                    <a href="#">Meu site</a>
+                    <a href="#">Meu site</a>
+                    <a href="#">Meu site</a>
+                
+                    </nav>
+        </header>
+        <main>
+            <section id="Assunstos"></section>
+            <section id="Títulos"></section>
+            <section id="Notícias"></section>
+            <br>
+            <h3>Meu Texto:</h3>
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia adipisci quam nesciunt minima aliquam rem, perspiciatis exercitationem eos nisi doloremque omnis, totam tempore magni, incidunt assumenda consequuntur eum inventore.</article>
+        </main>
+        <footer>
+            <p>Desenvolvido pelo Curso em vídeo</p>
+        </footer>
+        <div id="bola"></div>
+</html>

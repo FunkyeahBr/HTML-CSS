@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos aprender sobre Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a { 
+            color: red;
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        
+        a:visited {
+            color: darkred;
+        }
+
+    
+        a.hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+
+            color:yellow;
+        }
+        a::after {
+            content:'[Link]';
+            font-weight: normal;
+            text-decoration: none;
+            color: rgb(39, 133, 255);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+    <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+    <li><a href="https://youtube.com/funkyeahbr/" target="_blank">Canal do Youtube</a></li>
+    <li><a href="https://instagram.com/felipeag_costa/" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
