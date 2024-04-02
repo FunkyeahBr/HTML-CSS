@@ -4,4 +4,4 @@
 Estou aprendendo a criar sites e agora estou gerenciado meus repositórios!
 
 
-<p><a href="https://funkyeahbr.github.io/HTML-CSS/">Executar o exercício 001 </a></p>
+<a href="https://funkyeahbr.github.io/HTML-CSS/ex001/index.html">Executar o exercício 001 </a>
