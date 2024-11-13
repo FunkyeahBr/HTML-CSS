@@ -27,7 +27,7 @@ header {
 }
 
 header > nav {
-border: 1px dotted black;
+/* border: 1px dotted black; */
 display: flex;
 flex-flow: row nowrap;
 justify-content: end;
@@ -45,7 +45,7 @@ header > nav > a {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     flex: 0 0 200px;
 }
 
@@ -56,7 +56,7 @@ header > nav > a:hover {
 }
 
 nav {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 main {
@@ -66,3 +66,4 @@ main {
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
 }
+
